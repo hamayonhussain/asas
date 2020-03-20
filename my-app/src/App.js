@@ -7,17 +7,17 @@ class App extends React.Component {
   render() {
     return (
       <Fragment>
-        <div>
-          <Navbar bg="black" variant="black">
-          <Navbar.Brand href="#home">ASA</Navbar.Brand>
-          <Nav className="ml-auto">
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#services">Services</Nav.Link>
-            <Nav.Link href="#careers">Careers</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-          </Nav>
-          </Navbar>
-        </div>
+          <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
+          <Navbar.Brand href="#home">American Safeguard Alliance</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="ml-auto">
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#careers">Careers</Nav.Link>
+              <Nav.Link href="#contactus">Contact Us</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
 
         {/* Jumbotron */}
         <div className="black-bg">
