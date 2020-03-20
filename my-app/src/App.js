@@ -8,7 +8,7 @@ class App extends React.Component {
     return (
       <Fragment>
         <div>
-          <Navbar bg="black" variant="black">
+          <Navbar className="" bg="black" variant="black">
           <Navbar.Brand href="#home">ASA</Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link href="#about">About</Nav.Link>
@@ -25,10 +25,10 @@ class App extends React.Component {
             <Container>
               <Media>
               <img
-                  width={64}
-                  height={64}
-                  className="align-self-end mr-3"
-                  src={process.env.PUBLIC_URL + "public/asas-patch.png"}
+                  width={300}
+                  height={300}
+                  className="align-self-end m-auto"
+                  src={process.env.PUBLIC_URL + "asas-patch.png"}
                   alt="Generic placeholder"
                 />
               </Media>

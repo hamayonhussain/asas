@@ -7,20 +7,6 @@ body{
   text-align: center;
 }
 
-.img-fluid {
-  margin: auto;
-  height: 200;
-  width: 200;
-}
-
-h1 {
-  color: gray;
-}
-
-a {
-  color: gray;
-}
-
-p {
-  color: gray;
+h1, a, p {
+  color: silver;
 }
