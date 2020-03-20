@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import { Navbar } from 'react-bootstrap';
-import { Nav, Jumbotron, Container, Image } from 'react-bootstrap';
+import { Navbar, Nav, Jumbotron, Container, Media } from 'react-bootstrap';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends React.Component {
   render() {
@@ -23,8 +23,19 @@ class App extends React.Component {
         <div className="black-bg">
           <Jumbotron fluid>
             <Container>
-              <h1>American Safeguard Alliance</h1>
-              <Image src="public/asas-patch.png" fluid />
+              <Media>
+              <img
+                  width={200}
+                  height={200}
+                  className="align-self-end mx-auto"
+                  src={process.env.PUBLIC_URL + "asas-patch.png"}
+                  alt="Generic placeholder"
+                />
+              </Media>
+              <h1 >American Safeguard Alliance</h1>
+              <p>
+                Security Guard Company
+              </p>
             </Container>
           </Jumbotron>
         </div>
