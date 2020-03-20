@@ -7,15 +7,10 @@ body{
   text-align: center;
 }
 
-
-h1 {
-  color: silver;
+h1, a, p {
+  color: rgb(204, 204, 204);;
 }
 
-a {
-  color: silver;
-}
-
-p {
-  color: silver;
+.nav-link, .navbar-dark {
+  color: rgb(204, 204, 204) !important;
 }

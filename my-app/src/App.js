@@ -8,7 +8,7 @@ class App extends React.Component {
     return (
       <Fragment>
           <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
-          <Navbar.Brand href="#home">American Safeguard Alliance</Navbar.Brand>
+          <Navbar.Brand href="#home">ASA</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
