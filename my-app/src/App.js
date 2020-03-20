@@ -23,17 +23,10 @@ class App extends React.Component {
         <div className="black-bg">
           <Jumbotron fluid>
             <Container>
-              <h1 >American Safeguard Alliance LLC</h1>
-              <p>
-                Security Guard Company
-              </p>
+              <h1>American Safeguard Alliance</h1>
+              <Image src="public/asas-patch.png" fluid />
             </Container>
           </Jumbotron>
-        </div>
-
-        {/* asas image */}
-        <div>
-        <Image src="public/asas-patch.png" fluid />
         </div>
       </Fragment>
     )
