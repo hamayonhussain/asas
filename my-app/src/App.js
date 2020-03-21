@@ -7,17 +7,17 @@ class App extends React.Component {
   render() {
     return (
       <Fragment>
-        <div>
-          <Navbar className="" bg="black" variant="black">
+          <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
           <Navbar.Brand href="#home">ASA</Navbar.Brand>
-          <Nav className="ml-auto">
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#services">Services</Nav.Link>
-            <Nav.Link href="#careers">Careers</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-          </Nav>
-          </Navbar>
-        </div>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="ml-auto">
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#careers">Careers</Nav.Link>
+              <Nav.Link href="#contactus">Contact Us</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
 
         {/* Jumbotron */}
         <div className="black-bg">
@@ -25,9 +25,9 @@ class App extends React.Component {
             <Container>
               <Media>
               <img
-                  width={300}
-                  height={300}
-                  className="align-self-end m-auto"
+                  width={180}
+                  height={200}
+                  className="align-self-end mx-auto"
                   src={process.env.PUBLIC_URL + "asas-patch.png"}
                   alt="Generic placeholder"
                 />
