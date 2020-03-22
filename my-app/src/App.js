@@ -25,7 +25,7 @@ class App extends React.Component {
             <Container>
               <Media>
               <img
-                  width={200}
+                  width={180}
                   height={200}
                   className="align-self-end mx-auto"
                   src={process.env.PUBLIC_URL + "asas-patch.png"}
