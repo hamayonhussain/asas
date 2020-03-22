@@ -8,7 +8,7 @@ body{
 }
 
 h1, a, p {
-  color: rgb(204, 204, 204);;
+  color: rgb(204, 204, 204) !important;
 }
 
 .nav-link, .navbar-dark {
