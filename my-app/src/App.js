@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
-import { Navbar, Nav, Jumbotron, Container, Media } from 'react-bootstrap';
+import axios from 'axios';
+import { Navbar, Nav, Jumbotron, Container, Media, Form } from 'react-bootstrap';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -68,9 +69,20 @@ class App extends React.Component {
             <li>Firewatch</li>
           </ul>
         </Container>
-      </Fragment>
+
+        {/* Careers section */}
+        <Container>
+          <h1 id="careers" className="text-center">Careers</h1>
+          <p>
+            We are always looking to hire new officers, if you have Non commission, Commission & PPO license 
+            or no license, please email your resume to <a href="mailto:info@asastx.com">info@asastx.com</a>
+          </p>
+        </Container>
+      </Fragment> 
     )
   }
 }
+
+
 
 export default App;
