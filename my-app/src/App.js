@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
-import axios from 'axios';
-import { Navbar, Nav, Jumbotron, Container, Media, Form } from 'react-bootstrap';
+import { Navbar, Nav, Jumbotron, Container, Media} from 'react-bootstrap';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -15,7 +14,7 @@ class App extends React.Component {
             <Nav className="ml-auto">
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#services">Services</Nav.Link>
-              <Nav.Link href="#careers">Careers</Nav.Link>
+              {/* <Nav.Link href="#careers">Careers</Nav.Link> */}
               <Nav.Link href="#contactus">Contact us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -49,8 +48,13 @@ class App extends React.Component {
           <Container>
           <h1 id="about" className="text-center">About</h1>
             <p className="text-center">
-              American Safeguard Alliance offers security guard services in Houston, Dallas & Austin area. Our company is registered with the state of texas
-              and our security officers get trained by a security academy getting certified in Level 2, 3 or 4. We cover a wide array of security work
+            American Safeguard Alliance LLC is an acclaimed firm of security agents with a reputation for both effective security solutions
+            and the use of innovative technology in the protection of life and property. We will provide you with certified, licensed,
+            insured, and bonded Security Guards.  Each Security Professional has been screened to the standards of the United States Government Secret Clearance Program.
+            Our uniformed security guards are outfitted with police-type uniforms. Our corporate general orders require that our personnel always keep their uniforms pressed and clean.  
+            Their shoes are polished; military-style and men are clean-shaven with neat haircuts.  Our female officers are held to the same standard.  We pride ourselves on the appearance of our personnel, as they are representing our agency in your facilities.
+ 
+
             </p>
           </Container>
         </div>
@@ -71,11 +75,19 @@ class App extends React.Component {
         </Container>
 
         {/* Careers section */}
-        <Container>
+        {/* <Container>
           <h1 id="careers" className="text-center">Careers</h1>
           <p>
-            We are always looking to hire new officers, if you have Non commission, Commission & PPO license 
-            or no license, please email your resume to <a href="mailto:info@asastx.com">info@asastx.com</a>
+          We are always looking to hire new officers, if you have Noncommission, Commission &amp; PPO license, or no license, please email your resume to info@asastx.com 
+          </p>
+        </Container> */}
+
+        {/*Contact US*/}
+        <Container>
+          <h1 id="contactus" className="text-center">Contact Us</h1>
+          <p>
+          If you are looking for security services, please contact us at <a href="mailto:info@asastx.com">info@asastx.com</a><br></br>
+          <a href="tel:+8323357333">Tell (832)-335-7333</a>
           </p>
         </Container>
       </Fragment> 
