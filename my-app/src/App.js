@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import { Navbar, Nav, Jumbotron, Container, Media} from 'react-bootstrap';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Logo from "./logo.png";
+
 
 class App extends React.Component {
   render() {
@@ -29,8 +31,8 @@ class App extends React.Component {
                   width={180}
                   height={200}
                   className="align-self-end mx-auto"
-                  src={process.env.PUBLIC_URL + "asas-patch.png"}
-                  alt="Generic placeholder"
+                  src={Logo}
+                  alt="ASA-Logo"
                 />
               </Media>
               <h2>American Safeguard Alliance</h2>
