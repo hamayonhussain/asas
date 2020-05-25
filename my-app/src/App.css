@@ -14,3 +14,7 @@ h1, h2, a, p, ul, li {
 .nav-link, .navbar-dark {
   color: rgb(204, 204, 204) !important;
 }
+
+#contact-form {
+  color: rgb(204, 204, 204) !important;
+}

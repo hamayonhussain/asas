@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
-import { Navbar, Nav, Jumbotron, Container, Media} from 'react-bootstrap';
+import { Navbar, Nav, Jumbotron, Container, Media } from 'react-bootstrap';
+import ContactUs from './ContactUs';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from "./logo.png";
@@ -76,21 +77,11 @@ class App extends React.Component {
           </ul>
         </Container>
 
-        {/* Careers section */}
-        {/* <Container>
-          <h1 id="careers" className="text-center">Careers</h1>
-          <p>
-          We are always looking to hire new officers, if you have Noncommission, Commission &amp; PPO license, or no license, please email your resume to info@asastx.com 
-          </p>
-        </Container> */}
-
         {/*Contact US*/}
+ 
         <Container>
           <h1 id="contactus" className="text-center">Contact Us</h1>
-          <p>
-          If you are looking for security services, please contact us at <a href="mailto:info@asastx.com">info@asastx.com</a><br></br>
-          <a href="tel:+8323357333">Tell (832)-335-7333</a>
-          </p>
+          <ContactUs />
         </Container>
       </Fragment> 
     )
