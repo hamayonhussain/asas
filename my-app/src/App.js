@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import { Navbar, Nav, Jumbotron, Container, Media} from 'react-bootstrap';
-import ContactUs from './ContactUs';
+import { Navbar, Nav, Jumbotron, Container, Media, Card} from 'react-bootstrap';
+import ContactUs from './Components/ContactUs';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from "./logo.png";
@@ -159,6 +159,22 @@ class App extends React.Component {
           <ContactUs />
         </Container>
         {/* // Footer */}
+
+        <Card>
+          <Card.Header>Quote</Card.Header>
+          <Card.Body>
+            <blockquote className="blockquote mb-0">
+              <p>
+                {' '}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+                erat a ante.{' '}
+              </p>
+              <footer className="blockquote-footer">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </footer>
+            </blockquote>
+          </Card.Body>
+        </Card>
       
       </Fragment> 
 
