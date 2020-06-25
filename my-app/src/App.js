@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Navbar, Nav, Jumbotron, Container, Media, Card} from 'react-bootstrap';
+import { Navbar, Nav, Jumbotron, Container, Media} from 'react-bootstrap';
 import ContactUs from './Components/ContactUs';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,7 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <Fragment>
-          <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
           <Navbar.Brand href="#home">Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -160,21 +160,11 @@ class App extends React.Component {
         </Container>
         {/* // Footer */}
 
-        <Card>
-          <Card.Header>Quote</Card.Header>
-          <Card.Body>
-            <blockquote className="blockquote mb-0">
-              <p>
-                {' '}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                erat a ante.{' '}
-              </p>
-              <footer className="blockquote-footer">
-                Someone famous in <cite title="Source Title">Source Title</cite>
-              </footer>
-            </blockquote>
-          </Card.Body>
-        </Card>
+       <Container>
+         <div>
+
+        </div>
+       </Container>
       
       </Fragment> 
 
