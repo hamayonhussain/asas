@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Navbar, Nav, Jumbotron, Container, Media} from 'react-bootstrap';
-import ContactUs from './Components/ContactUs';
+// import ContactUs from './Components/ContactUs';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from "./logo.png";
@@ -39,9 +39,6 @@ class App extends React.Component {
               <h2>American Safeguard Alliance</h2>
               <p>
                 Security Guard Company
-              </p>
-              <p>
-                License # B11605101
               </p>
             </Container>
           </Jumbotron>
@@ -89,7 +86,7 @@ class App extends React.Component {
         
 
         <Container>
-          <h3  id="services">
+          <h3>
             Our Services
           </h3>
 
@@ -149,23 +146,6 @@ class App extends React.Component {
             Get in touch to know how we can resolve your security concerns.
           </p>
         </Container>
-
-        {/*Contact US*/}
- 
-        <Container>
-          <h3 id="contactus">
-            Contact Us
-          </h3>
-          <ContactUs />
-        </Container>
-        {/* // Footer */}
-
-       <Container>
-         <div>
-
-        </div>
-       </Container>
-      
       </Fragment> 
 
       
