@@ -3,10 +3,9 @@ import { Jumbotron, Container, Media} from 'react-bootstrap';
 import Logo from "./logo.png";
 
 
-export default function Footer() {
+export default function Companylogo() {
     return (
-
-        <div className="black-bg">
+      <div className="black-bg">
         <Jumbotron fluid>
           <Container>
             <Media>
@@ -25,6 +24,5 @@ export default function Footer() {
           </Container>
         </Jumbotron>
       </div>
-
     )
 }

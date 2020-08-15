@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react';
-import { Navbar, Nav, Jumbotron, Container, Media} from 'react-bootstrap';
+import React from 'react';
+import { Navbar, Nav, Container} from 'react-bootstrap';
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,7 +9,7 @@ import {
 // import ContactUs from './Components/ContactUs';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Logo from "./logo.png";
+// import Logo from "./logo.png";
 
 
 
@@ -33,7 +33,7 @@ class App extends React.Component {
             </Router>
 
             {/* Jumbotron */}
-            <div className="black-bg">
+            {/* <div className="black-bg">
               <Jumbotron fluid>
                 <Container>
                   <Media>
@@ -51,7 +51,7 @@ class App extends React.Component {
                   </p>
                 </Container>
               </Jumbotron>
-            </div>
+            </div> */}
         </Container> 
     )
   }
